@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom'
+import StarRating from "./StarRating";
 
 function Details () {
 
@@ -25,7 +26,7 @@ function Details () {
   
     if (!isLoaded) return <h2>Loading...</h2>
   
-    const { image, name, address, review, stars, additionalReviews } = restaurant;
+    const { image, name, address, review, rating, additionalReviews } = restaurant;
 
     function handleChange(e){
       const { name, value } = e.target;
@@ -63,7 +64,7 @@ function Details () {
             <h2>{name}</h2>
             <p>{address}</p>
             <p>{review}</p>
-            <p>stars = {stars}</p>
+            <p>Rating = {rating}</p>
 
             <form onSubmit={handleSubmit}>
 
@@ -76,6 +77,8 @@ function Details () {
               <label htmlFor="review">Review!</label>
               <textarea id="review" name="review" placeholder="Write something.." value={newReview.review} onChange={handleChange} style={{height:200}}></textarea>
               
+              <StarRating />
+
               <button type="submit">Submit</button>
             </form>
 

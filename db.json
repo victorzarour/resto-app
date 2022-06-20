@@ -6,7 +6,7 @@
       "image": "https://infatuation.imgix.net/media/images/reviews/lido-harlem/banners/1562870301.94.jpg?auto=format&fit=max&h=1200&w=3200",
       "address": "2166 Frederick Douglass Blvd, New York, NY 10026",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
     },
     {
@@ -15,7 +15,7 @@
       "image": "https://i.pinimg.com/originals/aa/83/f8/aa83f82d0b50f067223004afecc6940a.jpg",
       "address": "310 Lenox Ave, New York, NY 10027",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
     },
     {
@@ -24,7 +24,7 @@
       "image": "https://patch.com/img/cdn20/users/22866740/20170822/031258/styles/T800x600/public/processed_images/sylvias_hero_2880x2304-1503425313-6875.jpg",
       "address": "328 Malcolm X Blvd, New York, NY 10027",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
     },
     {
@@ -33,7 +33,7 @@
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/0f/ae/57/f6/interior-central-harlem.jpg",
       "address": "100 W 124th St, New York, NY 10027",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
     },
     {
@@ -42,7 +42,7 @@
       "image": "https://i.pinimg.com/originals/12/40/90/1240905cc5d8b662e65d08155b4552a4.jpg",
       "address": "781 Franklin Ave, Brooklyn, NY 11238",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
     },
     {
@@ -51,8 +51,24 @@
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/0d/b3/3a/56/vista-de-la-barra.jpg",
       "address": "736 Franklin Ave, Brooklyn, NY 11238",
       "review": "Loved it!",
-      "stars": 5,
+      "rating": 5,
       "additionalReviews": []
+    },
+    {
+      "name": "Victor",
+      "image": "",
+      "address": "v'SOK",
+      "review": ";FMLE",
+      "rating": 5,
+      "id": 7
+    },
+    {
+      "name": "second ",
+      "image": "",
+      "address": "second",
+      "review": "kd",
+      "rating": 3,
+      "id": 8
     }
   ]
 }

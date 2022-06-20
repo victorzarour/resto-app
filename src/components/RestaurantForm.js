@@ -1,14 +1,13 @@
 import { useState } from "react";
-import RatingStars from "./RatingStars";
+import StarRating from "./StarRating";
 
 function RestaurantForm({ onAddRestaurant }) {
-    const [currentValue, setCurrentValue] = useState(0);
+    const [rating, setRating] = useState(0)
     const [formData, setFormData] = useState({
         name: "",
         image: "",
         address: "",
-        review: "",
-        stars: currentValue,
+        review: ""
       });
 
     function handleChange(e){
@@ -25,7 +24,7 @@ function RestaurantForm({ onAddRestaurant }) {
             "Content-Type": "application/json",
             Accept: "application/json",
             },
-            body: JSON.stringify({ ...formData}),
+            body: JSON.stringify({ ...formData, rating: rating}),
         })
         .then((resp) => resp.json())
         .then((newRestaurant) => {onAddRestaurant(newRestaurant);
@@ -38,10 +37,10 @@ function RestaurantForm({ onAddRestaurant }) {
         });
     };
 
-    const handleClick = value => {
-        setCurrentValue(value)
-        console.log(currentValue)
-      }
+
+    function log(value) {
+        setRating(value);
+    }
 
     return(
         <section>         
@@ -60,8 +59,7 @@ function RestaurantForm({ onAddRestaurant }) {
                     <label htmlFor="review">Review</label>
 		            <textarea id="review" name="review" placeholder="Write something.." value={formData.review} onChange={handleChange} style={{height:200}}></textarea>
 
-                    <label htmlFor="stars"><RatingStars handleClick={handleClick} setCurrentValue={setCurrentValue} currentValue={currentValue}/></label>
-                    <input name="stars" value={formData.stars}/>
+                    <StarRating onChange={log}/>
 
                 <button type="submit">Add Restaurant</button>
                 </form>
