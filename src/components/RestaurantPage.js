@@ -14,17 +14,16 @@ function RestaurantPage({ restaurants }) {
     return(
         <div>
             <section>
-                <div>
-                    <h1>EatNYC</h1>
-                    <p>Overwhelmed by the number of restaurants NYC has to offer? You've come to the right place. Explore the options below, or click on the button to add your own entry.</p>
+                <div className="banner">
+                    <h1>RESTÒ</h1>
+                    <p>Explore the option below, and begin your culinary adventure.</p>
+                    <form>
+                        <input type="text" placeholder="Search.." name="search" value={search} onChange={handleChange}/>
+                    </form>
                 </div>
-                <NavLink exact classNameName="button" className="btn btn-primary my-2" to="/restaurants/new">
-                    Add Restaurant
-                </NavLink>
+                
             </section>
-            <form>
-                <input type="text" placeholder="Search.." name="search" value={search} onChange={handleChange}/>
-            </form>
+
             <RestaurantList restaurants={restaurants} search={search}/>
         </div>
     );

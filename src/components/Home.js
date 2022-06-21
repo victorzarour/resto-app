@@ -3,12 +3,12 @@ import {NavLink} from 'react-router-dom'
 function Home() {
     return(
         <div className='row'>
-            <section className='column'>
+            <section className='column column1'>
                 <h1>RESTÒ</h1>
                 <p className='subheader'>New York City's vibrant culinary scene.</p>
                 <p className='subheader'>By and for you.</p>
             </section>
-            <section className='column'>               
+            <section className='column column2'>               
                 <NavLink exact className="button" to="/" style= { { textDecoration: 'none' }}>
                     <div className='card card1'>
                         <h5>About</h5>

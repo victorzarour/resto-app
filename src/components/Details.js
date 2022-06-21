@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom'
-import StarRating from "./StarRating";
 
 function Details () {
 
@@ -26,7 +25,7 @@ function Details () {
   
     if (!isLoaded) return <h2>Loading...</h2>
   
-    const { image, name, address, review, rating, additionalReviews } = restaurant;
+    const { image, name, address, review, addedBy, additionalReviews } = restaurant;
 
     function handleChange(e){
       const { name, value } = e.target;
@@ -59,7 +58,7 @@ function Details () {
   }
   
     return (
-      <section className="details">
+      <section>
 
             <div className="detailsimage">
               <img src={image}/>
@@ -68,23 +67,25 @@ function Details () {
             <div className="restodetails">
               <h2>{name}</h2>
               <p>{address}</p>
-              <p>{review}</p>
-              <p>Rating = {rating}</p>
+              <p>Added by {addedBy}: {review}</p>
             </div>
 
-
-            <div className="additionalReviews">
+            <table className="additionalReviews">
+                  <tr>
+                    <th>Title</th>
+                    <th>Reviewer</th>
+                    <th>Review</th>
+                  </tr>
               {additionalReviews.map(piece => {
               return (
-                <div key={piece.review}>
-                  <h4>{piece.title}</h4>
-                  <p>By: {piece.reviewer}</p>
-                  <p>{piece.review}</p>
-                </div>
-              )
+                  <tr key={piece.review}>
+                    <td>{piece.title}</td>
+                    <td>{piece.reviewer}</td>
+                    <td>{piece.review}</td>
+                  </tr>
+               )
             })}
-            </div>
-
+            </table>
 
             <form onSubmit={handleSubmit} className="addresto">
 

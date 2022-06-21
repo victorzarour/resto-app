@@ -14,13 +14,10 @@
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), url(../images/blue.png));
     background-position: center;
     background-size: cover;
-    padding-left: 4%;
-    padding-right: 4%;
     box-sizing: border-box;
 }
 
 .navbar{
-    height: 32%;
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -45,15 +42,26 @@
 .column{
     flex-basis: 50%;
     text-align: center;
+    padding: 4%;
+
 }
 
-h1{
+.column1{
+    margin-left: 100px;
+}
+
+.column2{
+    margin-right: 100px;
+}
+
+.column h1{
     color: #fff;
     font-size: 100px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: 20px;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 .subheader{
@@ -124,10 +132,9 @@ h5{
     background-color: platinum;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 75px;
     text-align: center;
     width: 40%;
-    padding: 30px 0px;
     padding-bottom: 40px;
     border-radius: 20px;
 }
@@ -174,11 +181,78 @@ h5{
 }
 
 .detailsimage img{
-    max-width: 50rem;
+    max-width: 60%;
     max-height: 50rem;
+    border: #fff 4px solid;
 }
 
 .restodetails{
+    margin-top: 50px;
+    margin-bottom: 75px;
     text-align: center;
 }
+
+.additionalReviews{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+table{
+    width: 60%;
+}
+
+th{
+    letter-spacing: 3px;
+}
+
+.banner{
+    width: 100%;
+    background-color: lightgray;
+    height: 330px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.banner form{
+    text-align: center; 
+}
+
+.banner input{
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 15%;
+    height: 20px;
+    color: #000;
+    padding: 2px;
+}
+
+.banner h1{
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.banner p{
+    color: #000;
+    text-align: center;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+
 

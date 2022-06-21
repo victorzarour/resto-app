@@ -25,7 +25,7 @@ function RestoOfTheWeek({ restaurants }) {
   
     if (!isLoaded) return <h2>Loading...</h2>
   
-    const { image, name, address, review, stars, additionalReviews } = restaurant;
+    const { image, name, address, review, addedBy, additionalReviews } = restaurant;
 
     function handleChange(e){
       const { name, value } = e.target;
@@ -59,36 +59,52 @@ function RestoOfTheWeek({ restaurants }) {
   
     return (
       <section>
-            <img src={image}/>
-            <h2>{name}</h2>
-            <p>{address}</p>
-            <p>{review}</p>
-            <p>stars = {stars}</p>
 
-            <form onSubmit={handleSubmit}>
+            <div className="detailsimage">
+              <img src={image}/>
+            </div>
+            
+            <div className="restodetails">
+              <h2>{name}</h2>
+              <p>{address}</p>
+              <p>Added by {addedBy}: {review}</p>
+            </div>
 
-              <label htmlFor="title">Title</label>
-              <input type="text" id="title" placeholder="Title..." name="title" value={newReview.title} onChange={handleChange}/>
+            <table className="additionalReviews">
+                  <tr>
+                    <th>Title</th>
+                    <th>Reviewer</th>
+                    <th>Review</th>
+                  </tr>
+              {additionalReviews.map(piece => {
+              return (
+                  <tr key={piece.review}>
+                    <td>{piece.title}</td>
+                    <td>{piece.reviewer}</td>
+                    <td>{piece.review}</td>
+                  </tr>
+               )
+            })}
+            </table>
 
-              <label htmlFor="reviewer">Reviewer</label>
-              <input type="text" id="name" placeholder="Reviewer..." name="reviewer" value={newReview.reviewer} onChange={handleChange}/>
+            <form onSubmit={handleSubmit} className="addresto">
 
-              <label htmlFor="review">Review!</label>
-              <textarea id="review" name="review" placeholder="Write something.." value={newReview.review} onChange={handleChange} style={{height:200}}></textarea>
+              <h2>Feel free to add your own review!</h2>
+
+              <div className="formitem"> 
+                <input type="text" id="title" placeholder="Title..." name="title" value={newReview.title} onChange={handleChange}/>
+              </div>
+              
+              <div className="formitem"> 
+                <input type="text" id="name" placeholder="Reviewer..." name="reviewer" value={newReview.reviewer} onChange={handleChange}/>
+              </div>
+
+              <div className="formitem"> 
+                <textarea id="review" name="review" placeholder="Write something.." value={newReview.review} onChange={handleChange} style={{height:200}}></textarea>
+              </div>
               
               <button type="submit">Submit</button>
             </form>
-
-            {additionalReviews.map(piece => {
-              return (
-                <div key={piece.review}>
-                  <h4>{piece.title}</h4>
-                  <p>By: {piece.reviewer}</p>
-                  <p>{piece.review}</p>
-                </div>
-              )
-            })}
-
       </section>
     );
 }
