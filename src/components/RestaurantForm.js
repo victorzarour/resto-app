@@ -3,11 +3,13 @@ import StarRating from "./StarRating";
 
 function RestaurantForm({ onAddRestaurant }) {
     const [rating, setRating] = useState(0)
+    
     const [formData, setFormData] = useState({
         name: "",
         image: "",
         address: "",
-        review: ""
+        review: "",
+        additionalReviews: []
       });
 
     function handleChange(e){
@@ -37,31 +39,39 @@ function RestaurantForm({ onAddRestaurant }) {
         });
     };
 
-
     function log(value) {
         setRating(value);
+        console.log(value)
     }
 
     return(
         <section>         
-            <form onSubmit={handleSubmit} autoComplete="off">
-                <h2>Add a New Restaurant</h2>
+            
+            <form onSubmit={handleSubmit} autoComplete="off" className="addresto">
+                    
+                    <h2>Add a Restaurant</h2>
 
-                    <label htmlFor="image">Name</label>
-                    <input type="text" id="name" placeholder="Name..." name="name" value={formData.name} onChange={handleChange}/>
+                    <div className="formitem">                
+                        <input type="text" id="name" placeholder="Name..." name="name" value={formData.name} onChange={handleChange}/>
+                    </div>
 
-                    <label htmlFor="image">Image</label>
-                    <input type="text" id="image" placeholder="Image..." name="image" value={formData.image} onChange={handleChange}/>
+                    <div className="formitem">                        
+                        <input type="text" id="image" placeholder="Image..." name="image" value={formData.image} onChange={handleChange}/>
+                    </div>
 
-                    <label htmlFor="address">Address</label>
-                    <input type="text" id="address" placeholder="Address..." name="address" value={formData.address} onChange={handleChange}/>
+                    <div className="formitem">                        
+                        <input type="text" id="address" placeholder="Address..." name="address" value={formData.address} onChange={handleChange}/>
+                    </div>
 
-                    <label htmlFor="review">Review</label>
-		            <textarea id="review" name="review" placeholder="Write something.." value={formData.review} onChange={handleChange} style={{height:200}}></textarea>
+                    <div className="formitem">                        
+                        <textarea id="review" name="review" placeholder="Write something.." value={formData.review} onChange={handleChange} style={{height:200}}></textarea>
+                    </div>
 
-                    <StarRating onChange={log}/>
+                    <input type="hidden" id="additionalReviews" name="additionalReviews" value={formData.additionalReviews} onChange={handleChange}/>
 
-                <button type="submit">Add Restaurant</button>
+                    {/* <StarRating onChange={log}/> */}
+
+                    <button type="submit">Submit</button>
                 </form>
         </section>
     );

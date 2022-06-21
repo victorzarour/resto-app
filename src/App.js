@@ -23,24 +23,30 @@ function App() {
   };
 
   return (
-    <div>
-      <Header />
-
+    <div className="container">
       <Switch>
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/restaurants">
-          <RestaurantPage restaurants={restaurants}/>
-        </Route>
-        <Route exact path="/restaurants/new">
-          <RestaurantForm onAddRestaurant={onAddRestaurant}/>
-        </Route>
-        <Route path="/restaurants/:id">
-          <Details />
-        </Route>
-        <Route path="/weeksresto">
-          <RestoOfTheWeek restaurants={restaurants}/>
+        <Route>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/restaurants">
+              <RestaurantPage restaurants={restaurants}/>
+            </Route>
+            <Route exact path="/restaurants/new">
+              <RestaurantForm onAddRestaurant={onAddRestaurant}/>
+            </Route>
+            <Route path="/restaurants/:id">
+              <Details />
+            </Route>
+            <Route path="/weeksresto">
+              <RestoOfTheWeek restaurants={restaurants}/>
+            </Route>
+            </Switch>
         </Route>
       </Switch>
     </div>

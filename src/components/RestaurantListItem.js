@@ -6,7 +6,7 @@ function RestaurantListItem({ restaurant }) {
     
     return(
           <div>
-            <img src={image}/>
+            <img src={image} className="albumimage"/>
             <h4>{name}</h4>
             <p>Address: {address}</p>
             <p>Rating: {rating}</p>

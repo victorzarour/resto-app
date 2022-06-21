@@ -5,7 +5,7 @@ function Header() {
     return(
       <header>
         <nav>
-          <div>
+          <div className="navbar">
             <NavLink exact className="button" to="/">
               Home
             </NavLink>
@@ -22,6 +22,6 @@ function Header() {
         </nav>
       </header>
     );
-}
+  }
 
 export default Header;

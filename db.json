@@ -7,7 +7,13 @@
       "address": "2166 Frederick Douglass Blvd, New York, NY 10026",
       "review": "Loved it!",
       "rating": 5,
-      "additionalReviews": []
+      "additionalReviews": [
+        {
+          "title": "Loved it",
+          "reviewer": "Victor",
+          "review": "reviewskld"
+        }
+      ]
     },
     {
       "id": 2,
@@ -34,7 +40,23 @@
       "address": "100 W 124th St, New York, NY 10027",
       "review": "Loved it!",
       "rating": 5,
-      "additionalReviews": []
+      "additionalReviews": [
+        {
+          "title": "Hatesitt",
+          "reviewer": "Victor",
+          "review": "so bad"
+        },
+        {
+          "title": "dgf",
+          "reviewer": "sg",
+          "review": "sgsg"
+        },
+        {
+          "title": "sdgfd",
+          "reviewer": "sgs",
+          "review": "sgf"
+        }
+      ]
     },
     {
       "id": 5,
@@ -55,20 +77,247 @@
       "additionalReviews": []
     },
     {
-      "name": "Victor",
-      "image": "",
-      "address": "v'SOK",
-      "review": ";FMLE",
-      "rating": 5,
-      "id": 7
+      "id": 7,
+      "name": "Wenwen",
+      "image": "https://cdn.vox-cdn.com/thumbor/Dr4aIdKfbfiwraGhLwrfN2A0_VQ=/0x0:4320x2881/1270x953/filters:focal(1838x1140:2528x1830):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70717848/AF_Eater_WenWen_50.0.jpeg",
+      "address": "1025 Manhattan Ave, Brooklyn, NY 11222",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
     },
     {
-      "name": "second ",
+      "id": 8,
+      "name": "Laser Wolf Brooklyn",
+      "image": "https://cdn.vox-cdn.com/thumbor/Xb8BxPna11iGII2Jww4zjsY4X2s=/0x0:5760x3840/1270x953/filters:focal(2420x1460:3340x2380):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70936100/Laser_Wolf_12.0.jpg",
+      "address": "97 Wythe Ave, Brooklyn, NY 11249",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 9,
+      "name": "Santa Fe BK",
+      "image": "https://cdn.vox-cdn.com/thumbor/d8HsYXczScTMTkZ3Xw-Yab_XT_o=/0x0:4000x2667/1270x953/filters:focal(1680x1014:2320x1654):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70571127/ChristianR_SantaFe_12.11.jpg",
+      "address": "178 N 8th St, Brooklyn, NY 11211",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 10,
+      "name": "Edith's Eatery & Grocery",
+      "image": "https://cdn.vox-cdn.com/thumbor/fHFZr27kh4iVwKnNa6gj5J6s_04=/0x0:3000x2000/1270x953/filters:focal(1260x760:1740x1240):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70463433/TAVOLETTI1527.0.jpg",
+      "address": "312 Leonard St, Brooklyn, NY 11211",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 11,
+      "name": "Ensenada",
+      "image": "https://cdn.vox-cdn.com/thumbor/04CcOVIRoFWT7RY7jscOQccEZNA=/0x0:7769x5182/1270x953/filters:focal(3264x1970:4506x3212):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70936101/AF_Ensenada_AguachileNegro_1.0.jpg",
+      "address": "168 Borinquen Pl, Brooklyn, NY 11211",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 12,
+      "name": "Eyval",
+      "image": "https://cdn.vox-cdn.com/thumbor/SLDhpyQExEeZW24AugEo0pZNjyk=/0x0:4320x3085/1270x953/filters:focal(1815x1198:2505x1888):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828150/AF_Eyval_MushroomFavaBean_2.0.jpg",
+      "address": "25 Bogart St, Brooklyn, NY 11206",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 13,
+      "name": "Al Badawi",
+      "image": "https://cdn.vox-cdn.com/thumbor/Hx2HYsC2ddijNtQd6FaailCWKzw=/0x0:7952x5304/1270x953/filters:focal(3340x2016:4612x3288):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70219038/AF_AlBadawi_OuziBeef_1.0.jpg",
+      "address": "151 Atlantic Ave, Brooklyn, NY 11201",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 14,
+      "name": "Saraghina Caffe",
+      "image": "https://cdn.vox-cdn.com/thumbor/69g-jOzJsORx-zuxkm1QIJ7bCvg=/0x0:4032x3024/1270x953/filters:focal(1694x1190:2338x1834):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828151/SaraghinaCaffe.0.jpg",
+      "address": "195 DeKalb Ave, Brooklyn, NY 11205",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 15,
+      "name": "Brooklyn Hots",
+      "image": "https://cdn.vox-cdn.com/thumbor/WlJ2kulUU0Uli9atrnhmCkBwMkw=/0x0:6488x4866/1270x953/filters:focal(2792x2183:3830x3221):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828152/AF_BkHots_TrashPlate_6.0.jpg",
+      "address": "291 Greene Ave, Brooklyn, NY 11238",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 16,
+      "name": "Dept of Culture",
+      "image": "https://cdn.vox-cdn.com/thumbor/H1fkNpl3VzNRi0_UavUaYc-X0yY=/0x0:2400x1800/1270x953/filters:focal(1008x708:1392x1092):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70463434/_MG_2740.13.jpg",
+      "address": "327 Nostrand Ave, Brooklyn, NY 11216",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 17,
+      "name": "Dept of Culture",
+      "image": "https://cdn.vox-cdn.com/thumbor/1cCPgHCBKhvwZPlXVBwebs5m64Y=/0x0:2500x1667/1270x953/filters:focal(1050x634:1450x1034):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828153/PDF_Main_Bar.0.jpg",
+      "address": "327 Nostrand Ave, Brooklyn, NY 11216",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 18,
+      "name": "Place des Fetes",
+      "image": "https://cdn.vox-cdn.com/thumbor/1cCPgHCBKhvwZPlXVBwebs5m64Y=/0x0:2500x1667/1270x953/filters:focal(1050x634:1450x1034):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828153/PDF_Main_Bar.0.jpg",
+      "address": "212 Greene Ave, Brooklyn, NY 11238",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 19,
+      "name": "Cafe Spaghetti",
+      "image": "https://cdn.vox-cdn.com/thumbor/k5vsQMtmCqz11R3hMrU6t0Ttbj4=/0x0:2048x1360/1270x953/filters:focal(861x517:1187x843):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70936102/CafeSpaghettiEar.0.jpg",
+      "address": "126 Union St, Brooklyn, NY 11231",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 20,
+      "name": "Gee's Caribbean Restaurant",
+      "image": "https://cdn.vox-cdn.com/thumbor/IrDH9T70KHyihYbrK4eKv7-vmaQ=/0x0:3024x4032/1270x953/filters:focal(1311x1664:1793x2146):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70828154/IMG_5921.0.jpg",
+      "address": "770 Nostrand Ave, Brooklyn, NY 11216",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 21,
+      "name": "Agi's Counter",
+      "image": "https://cdn.vox-cdn.com/thumbor/GwCoX7Crs4qC4nCWnV7ML8EMr_c=/0x0:6848x5136/1270x953/filters:focal(2978x2410:4072x3504):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70219039/0C8T4RJA.0.jpeg",
+      "address": "818 Franklin Ave, Brooklyn, NY 11225",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 22,
+      "name": "Lucia Pizza of Avenue X",
+      "image": "https://cdn.vox-cdn.com/thumbor/lUVMoPQeluPKIJBZV86TzAQ8CJA=/0x0:2399x1600/1270x953/filters:focal(1009x609:1391x991):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70571128/Lucia_Pizza_32.14.jpg",
+      "address": "2201 Avenue X, Brooklyn, NY 11235",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 23,
+      "name": "Salento",
+      "image": "https://cdn.vox-cdn.com/thumbor/CqKqCueIR76tLAjdMoEU89h4ruk=/0x0:4032x3024/1270x953/filters:focal(1694x1190:2338x1834):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70983124/salento.0.jpg",
+      "address": "2112 Amsterdam Ave, New York, NY 10032",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 24,
+      "name": "Old John Diner",
+      "image": "https://cdn.vox-cdn.com/thumbor/ua34K42-zOK7JHN38ccVyVqi3q0=/0x0:2881x1921/1270x953/filters:focal(1211x731:1671x1191):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69953388/old_johns_egg_cream.0.jpg",
+      "address": "148 W 67th St, New York, NY 10023",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 25,
+      "name": "Sullivan Street Bakery",
+      "image": "https://cdn.vox-cdn.com/thumbor/9KvdZIMt2tc0UosgHyZ0xuuDlzM=/0x0:4032x3024/1270x953/filters:focal(1694x1190:2338x1834):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66293863/egg_sando.0.jpg",
+      "address": "533 W 47th St, New York, NY 10036",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 26,
+      "name": "Criollas",
+      "image": "https://cdn.vox-cdn.com/thumbor/UkTj2kx7SH4ImFhUWKqMWXbDuk8=/0x0:4032x3024/1270x953/filters:focal(1694x1190:2338x1834):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70983125/criollas_three.0.jpg",
+      "address": "1000S 8th Ave, New York, NY 10019",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 27,
+      "name": "Margon",
+      "image": "https://cdn.vox-cdn.com/thumbor/iSSHhenqXEyV15Gjl9yfjoSdmsM=/0x0:2048x1360/1270x953/filters:focal(861x517:1187x843):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/66293864/CubanMargonPorkRoastAndSalad.0.jpg",
+      "address": "136 W 46th St, New York, NY 10036",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 28,
+      "name": "Spanish Diner",
+      "image": "https://cdn.vox-cdn.com/thumbor/1f_NhHZEtv463DEJ6NOlg0HcYAc=/0x0:5760x3840/1270x953/filters:focal(2420x1460:3340x2380):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/64694736/Mercado_Little_Spain_23.0.jpg",
+      "address": "10 Hudson Yards, New York, NY 10001",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 29,
+      "name": "King David Tacos",
+      "image": "https://cdn.vox-cdn.com/thumbor/RC01dlTf-KfRmZIf0wrhlek3r2c=/0x0:4032x3024/1270x953/filters:focal(1694x1190:2338x1834):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69953390/king_david_tacos.0.jpg",
+      "address": "11 Madison Ave, New York, NY 10010",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "id": 30,
+      "name": "Brooklyn Kolache",
+      "image": "https://cdn.vox-cdn.com/thumbor/VRD0aTOGolVfAt_VjhrvK5LCgtc=/0x0:4500x3297/1270x953/filters:focal(1890x1289:2610x2009):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69953392/Brooklyn_Kolache_Cherry_Sweet_Cheese_by_Dara_Pollak.0.jpeg",
+      "address": "185 Bleecker St, New York, NY 10012",
+      "review": "Loved it!",
+      "stars": 5,
+      "additionalReviews": []
+    },
+    {
+      "name": "",
       "image": "",
-      "address": "second",
-      "review": "kd",
-      "rating": 3,
-      "id": 8
+      "address": "",
+      "review": "",
+      "additionalReviews": [],
+      "rating": 0,
+      "id": 31
+    },
+    {
+      "name": "Assim",
+      "image": "",
+      "address": "",
+      "review": "Good!",
+      "additionalReviews": [],
+      "rating": 0,
+      "id": 32
+    },
+    {
+      "name": "hey there",
+      "image": "",
+      "address": "",
+      "review": "",
+      "additionalReviews": [],
+      "rating": 0,
+      "id": 33
     }
   ]
 }

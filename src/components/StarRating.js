@@ -3,7 +3,7 @@ import Star from "./Star";
 
 function StarRating({ onChange }) {
   const [rating, setRating] = useState(0);
-  const changeRating = (newRating) => {
+  function changeRating(newRating){
     setRating(newRating);
     onChange?.(newRating);
   };
