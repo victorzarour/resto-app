@@ -5,13 +5,15 @@ function RestaurantListItem({ restaurant }) {
     const {id, name, image, address} = restaurant
     
     return(
-          <div>
+          <div className='gallery'>
             <img src={image} className="albumimage"/>
-            <h4>{name}</h4>
-            <p>Address: {address}</p>
-            <NavLink classNameName="button"className="btn btn-sm btn-outline-secondary" to={`/restaurants/${id}`}>
-              ReadMore
-            </NavLink>
+            <div className='desc'>
+              <h4>{name}</h4>
+              <p>{address}</p>
+              <NavLink to={`/restaurants/${id}`}>
+                <button>More</button>
+              </NavLink>
+            </div>
           </div>
     );
 }

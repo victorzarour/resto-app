@@ -5,8 +5,10 @@ function Home() {
         <div className='row'>
             <section className='column column1'>
                 <h1>RESTÒ</h1>
-                <p className='subheader'>New York City's vibrant culinary scene.</p>
-                <p className='subheader'>By and for you.</p>
+                <div className='typing-slider'>
+                    <p className='subheader'>New York City's vibrant culinary scene.</p>
+                    <p className='subheader'>By and for you.</p>
+                </div>
             </section>
             <section className='column column2'>               
                 <NavLink exact className="button" to="/" style= { { textDecoration: 'none' }}>
@@ -16,7 +18,7 @@ function Home() {
                 </NavLink>
                 
                 <NavLink exact className="button" to="/restaurants" style= { { textDecoration: 'none' }}>
-                        <div className='card card2'>
+                    <div className='card card2'>
                         <h5>Restaurants</h5>
                     </div>
                 </NavLink>                

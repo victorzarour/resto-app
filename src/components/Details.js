@@ -58,7 +58,7 @@ function Details () {
   }
   
     return (
-      <section>
+      <section className="detailsSection">
 
             <div className="detailsimage">
               <img src={image}/>
@@ -67,25 +67,9 @@ function Details () {
             <div className="restodetails">
               <h2>{name}</h2>
               <p>{address}</p>
-              <p>Added by {addedBy}: {review}</p>
+              <p>Added by {addedBy}</p>
+              <p className="reviewResto">{review}</p>
             </div>
-
-            <table className="additionalReviews">
-                  <tr>
-                    <th>Title</th>
-                    <th>Reviewer</th>
-                    <th>Review</th>
-                  </tr>
-              {additionalReviews.map(piece => {
-              return (
-                  <tr key={piece.review}>
-                    <td>{piece.title}</td>
-                    <td>{piece.reviewer}</td>
-                    <td>{piece.review}</td>
-                  </tr>
-               )
-            })}
-            </table>
 
             <form onSubmit={handleSubmit} className="addresto">
 
@@ -105,6 +89,25 @@ function Details () {
 
               <button type="submit">Submit</button>
             </form>
+
+            <table className="additionalReviews">
+                  <tr className="reviewRow">
+                    <th>Title</th>
+                    <th>Reviewer</th>
+                    <th>Review</th>
+                  </tr>
+              {additionalReviews.map(piece => {
+              return (
+                  <tr key={piece.review}>
+                    <td className="reviewRowTwo">{piece.title}</td>
+                    <td>{piece.reviewer}</td>
+                    <td>{piece.review}</td>
+                  </tr>
+               )
+            })}
+            </table>
+
+
 
       </section>
     );

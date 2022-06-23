@@ -12,7 +12,7 @@ function RestaurantList({ restaurants, search }) {
 
     return(
         <section>
-            <div>
+            <div className="restoContainer">
                 {allRestaurants}
             </div>
         </section>

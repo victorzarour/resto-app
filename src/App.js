@@ -31,9 +31,6 @@ function App() {
         <Route>
           <Header />
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
             <Route exact path="/restaurants">
               <RestaurantPage restaurants={restaurants}/>
             </Route>

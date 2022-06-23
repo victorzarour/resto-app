@@ -1,5 +1,4 @@
 import { useState } from "react";
-import StarRating from "./StarRating";
 
 function RestaurantForm({ onAddRestaurant }) {
     const [rating, setRating] = useState(0)
@@ -9,6 +8,7 @@ function RestaurantForm({ onAddRestaurant }) {
         image: "",
         address: "",
         review: "",
+        addedBy: "",
         additionalReviews: []
       });
 
@@ -34,6 +34,7 @@ function RestaurantForm({ onAddRestaurant }) {
             name: "",
             image: "",
             address: "",
+            addedBy: "",
             review: "",
         });
         });
@@ -52,7 +53,11 @@ function RestaurantForm({ onAddRestaurant }) {
                     <h2>Add a Restaurant</h2>
 
                     <div className="formitem">                
-                        <input type="text" id="name" placeholder="Name..." name="name" value={formData.name} onChange={handleChange}/>
+                        <input type="text" id="yourname" placeholder="Your name..." name="addedBy" value={formData.addedBy} onChange={handleChange}/>
+                    </div>
+
+                    <div className="formitem">                
+                        <input type="text" id="name" placeholder="Name of restaurant..." name="name" value={formData.name} onChange={handleChange}/>
                     </div>
 
                     <div className="formitem">                        

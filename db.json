@@ -5,31 +5,26 @@
       "name": "Lido Harlem",
       "image": "https://infatuation.imgix.net/media/images/reviews/lido-harlem/banners/1562870301.94.jpg?auto=format&fit=max&h=1200&w=3200",
       "address": "2166 Frederick Douglass Blvd, New York, NY 10026",
-      "review": "Loved it!",
+      "review": "Named after Lido di Venezia, the famous beach in Italy, the playground of film stars, fashion icons, The Venice Film Festival and of course, Josephine Baker in her heyday. The food is memorably delicious, and the atmosphere is elegant but convivial. Our guests say they feel as if they’re at the home of a charming Italian friend.",
       "rating": 5,
       "addedBy": "Blue Ivy",
       "additionalReviews": [
         {
-          "title": "Loved it",
-          "reviewer": "Victor",
-          "review": "Florida is the only U.S. state that did not preorder COVID-19 vaccines for kids under 5 before the Food and Drug Administration authorized them. After the FDA granted an emergency use authorization Friday, the state allowed health care providers to place orders for the vaccines, something providers in other states had been able to do since June 3."
+          "title": "It's okay",
+          "reviewer": "Peppe",
+          "review": "This is a nice restaurant in a vibrant part of Harlem. The food is good, but it's not really Italian. If you want real Italian food, come to my nonna's house!"
         },
         {
-          "title": "Good experience",
-          "reviewer": "Victor",
-          "review": "Fast service."
-        },
-        {
-          "title": "So good",
-          "reviewer": "Naty",
-          "review": "Went there yesterday."
+          "title": "Sunday Brunch",
+          "reviewer": "Cameron",
+          "review": "Limitless Mimosas during brunch! It's a great deal, and you'll always run into someone you know. Love coming here every week."
         }
       ]
     },
     {
       "id": 2,
       "name": "Red Rooster Harlem",
-      "image": "https://i.pinimg.com/originals/aa/83/f8/aa83f82d0b50f067223004afecc6940a.jpg",
+      "image": "https://s3-media4.fl.yelpcdn.com/bphoto/gaGIePvewPz3Sa0gzDRDPA/o.jpg",
       "address": "310 Lenox Ave, New York, NY 10027",
       "review": "Loved it!",
       "rating": 5,
@@ -54,23 +49,7 @@
       "review": "Loved it!",
       "rating": 5,
       "addedBy": "Blue Ivy",
-      "additionalReviews": [
-        {
-          "title": "Hatesitt",
-          "reviewer": "Victor",
-          "review": "so bad"
-        },
-        {
-          "title": "dgf",
-          "reviewer": "sg",
-          "review": "sgsg"
-        },
-        {
-          "title": "sdgfd",
-          "reviewer": "sgs",
-          "review": "sgf"
-        }
-      ]
+      "additionalReviews": []
     },
     {
       "id": 5,
@@ -80,13 +59,7 @@
       "review": "Loved it!",
       "rating": 5,
       "addedBy": "Blue Ivy",
-      "additionalReviews": [
-        {
-          "title": "ate",
-          "reviewer": "zgd",
-          "review": "zg"
-        }
-      ]
+      "additionalReviews": []
     },
     {
       "id": 6,
@@ -315,11 +288,28 @@
       "additionalReviews": []
     },
     {
-      "name": "Baby",
-      "image": "",
-      "address": "",
-      "review": "sdgsdg",
-      "additionalReviews": [],
+      "name": "MEW NYC",
+      "image": "https://infatuation.imgix.net/media/images/reviews/izakaya-mew/Izakaya%20Mew%20Sakura%20Roll.jpg?auto=format&h=890&w=1336",
+      "address": "53 W 35th St, New York, NY 10001",
+      "review": "In July of 2013, Izakaya MEW opened in the bustling neighborhood of midtown Manhattan as the first establishment to combine the flavors of traditional Japanese cuisine with the dynamic trends of New York’s food culture. Under the supervision of a head chef from Japan, the team developed a menu that would preserve the delicate flavors of Japanese cuisine while adding the chef’s modernistic elements to create Japanese-style tapas that would suit a wide range of palates.",
+      "addedBy": "Victor Zarour",
+      "additionalReviews": [
+        {
+          "title": "Great for a date night",
+          "reviewer": "Pooja",
+          "review": "I went here for my second date with a woman a really like. The evening was really wonderful. The service was quick, the food delicious, and the atmosphere cozy."
+        },
+        {
+          "title": "What happened?",
+          "reviewer": "Carmine",
+          "review": "This used to be my favorite place. Now it's so loud and full of entitled millenials."
+        },
+        {
+          "title": "Best sushi in town",
+          "reviewer": "Ârash",
+          "review": "Save yourself hours of research and just come to MEW if you want to have the best sushi in NYC."
+        }
+      ],
       "rating": 0,
       "id": 31
     }

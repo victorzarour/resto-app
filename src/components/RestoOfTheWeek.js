@@ -15,7 +15,7 @@ function RestoOfTheWeek({ restaurants }) {
     const { id } = useParams();
 
     useEffect(() => {
-      fetch(`http://localhost:3000/restaurants/5`)
+      fetch(`http://localhost:3000/restaurants/31`)
         .then((r) => r.json())
         .then((restaurant) => {
           setRestaurant(restaurant);
@@ -37,7 +37,7 @@ function RestoOfTheWeek({ restaurants }) {
   function handleSubmit(e){
     e.preventDefault();
     
-    fetch(`http://localhost:3000/restaurants/5`, {
+    fetch(`http://localhost:3000/restaurants/31`, {
         method: "PATCH",
         headers: {
         "Content-Type": "application/json",
@@ -58,7 +58,7 @@ function RestoOfTheWeek({ restaurants }) {
   }
   
     return (
-      <section>
+      <section className="detailsSection">
 
             <div className="detailsimage">
               <img src={image}/>
@@ -67,25 +67,9 @@ function RestoOfTheWeek({ restaurants }) {
             <div className="restodetails">
               <h2>{name}</h2>
               <p>{address}</p>
-              <p>Added by {addedBy}: {review}</p>
+              <p>Added by {addedBy}</p>
+              <p className="reviewResto">{review}</p>
             </div>
-
-            <table className="additionalReviews">
-                  <tr>
-                    <th>Title</th>
-                    <th>Reviewer</th>
-                    <th>Review</th>
-                  </tr>
-              {additionalReviews.map(piece => {
-              return (
-                  <tr key={piece.review}>
-                    <td>{piece.title}</td>
-                    <td>{piece.reviewer}</td>
-                    <td>{piece.review}</td>
-                  </tr>
-               )
-            })}
-            </table>
 
             <form onSubmit={handleSubmit} className="addresto">
 
@@ -94,7 +78,7 @@ function RestoOfTheWeek({ restaurants }) {
               <div className="formitem"> 
                 <input type="text" id="title" placeholder="Title..." name="title" value={newReview.title} onChange={handleChange}/>
               </div>
-              
+
               <div className="formitem"> 
                 <input type="text" id="name" placeholder="Reviewer..." name="reviewer" value={newReview.reviewer} onChange={handleChange}/>
               </div>
@@ -102,9 +86,28 @@ function RestoOfTheWeek({ restaurants }) {
               <div className="formitem"> 
                 <textarea id="review" name="review" placeholder="Write something.." value={newReview.review} onChange={handleChange} style={{height:200}}></textarea>
               </div>
-              
+
               <button type="submit">Submit</button>
             </form>
+
+            <table className="additionalReviews">
+                  <tr className="reviewRow">
+                    <th>Title</th>
+                    <th>Reviewer</th>
+                    <th>Review</th>
+                  </tr>
+              {additionalReviews.map(piece => {
+              return (
+                  <tr key={piece.review}>
+                    <td className="reviewRowTwo">{piece.title}</td>
+                    <td>{piece.reviewer}</td>
+                    <td>{piece.review}</td>
+                  </tr>
+               )
+            })}
+            </table>
+
+
       </section>
     );
 }
