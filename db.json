@@ -18,6 +18,11 @@
           "title": "Sunday Brunch",
           "reviewer": "Cameron",
           "review": "Limitless Mimosas during brunch! It's a great deal, and you'll always run into someone you know. Love coming here every week."
+        },
+        {
+          "title": "So good",
+          "reviewer": "Victor",
+          "review": "Enjoyed it a lot"
         }
       ]
     },
@@ -308,6 +313,11 @@
           "title": "Best sushi in town",
           "reviewer": "Ârash",
           "review": "Save yourself hours of research and just come to MEW if you want to have the best sushi in NYC."
+        },
+        {
+          "title": "Great",
+          "reviewer": "Xavier",
+          "review": "Loved it."
         }
       ],
       "rating": 0,
