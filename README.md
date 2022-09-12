@@ -1,71 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# RESTÒ
 
-## Available Scripts
+## OVERVIEW
 
-In the project directory, you can run:
+Restò allows users to explore restaurants in New York City, as well as add their own restaurants and reviews.
 
-### `npm start`
+The app is currently deployed here: https://resto-nyc.herokuapp.com/restaurants
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can also find a demo here: https://www.linkedin.com/feed/update/urn:li:activity:6950120581514113024/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6950120581514113024%29
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/79528112/189642363-3b1f7793-7992-43ce-b062-9847228545c8.png)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User are be able to:
 
-### `npm run build`
+-	Search for restaurants/food trucks in different boroughs of NYC
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-	Read details about restaurants
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-	Leave reviews
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-	Add new restaurant
 
-### `npm run eject`
+-	Favorite a restaurant
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Explore the "Restò of the Week"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Resto  RestaurantList](https://user-images.githubusercontent.com/79528112/189644050-a1b41be7-e065-46ca-b47a-cebfe3e456dc.JPG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Resto  RestDetails](https://user-images.githubusercontent.com/79528112/189644078-9939988d-e899-4ec7-a1cd-296eaa4ba8e4.JPG)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Resto  AddResto](https://user-images.githubusercontent.com/79528112/189644097-d0163074-783c-4e5f-838e-6182f5726e22.JPG)
 
-## Learn More
+## Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To setup the app, first fork and cd into the directory, then run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+You can use the following commands to run the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ```json-server --watch db.json```: run the backend on http://localhost:3000
+- ```npm start``` --prefix client: run the frontend on http://localhost:3001
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# project-phase-2
