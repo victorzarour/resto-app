@@ -9,7 +9,7 @@ The app is currently deployed here: https://resto-nyc.herokuapp.com/restaurants
 
 You can also find a demo here: https://www.linkedin.com/feed/update/urn:li:activity:6950120581514113024/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6950120581514113024%29
 
-![image](https://user-images.githubusercontent.com/79528112/189642363-3b1f7793-7992-43ce-b062-9847228545c8.png)
+![Resto  HomePage](https://user-images.githubusercontent.com/79528112/189644550-1b751d2f-8242-40b6-9322-6cd8ce374cd9.JPG)
 
 ## Features
 
