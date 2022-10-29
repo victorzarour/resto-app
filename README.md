@@ -21,7 +21,7 @@ User are be able to:
 
 -	Leave reviews
 
--	Add new restaurant
+-	Add a new restaurant
 
 -	Favorite a restaurant
 
