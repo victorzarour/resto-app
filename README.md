@@ -3,7 +3,7 @@
 
 ## OVERVIEW
 
-Restò allows users to explore restaurants in New York City, as well as add their own restaurants and reviews.
+Restò allows users to explore restaurants in New York City, as well as add their own restaurants and reviews!
 
 The app is currently deployed here: https://resto-nyc.herokuapp.com/restaurants
 
