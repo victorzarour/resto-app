@@ -11,7 +11,7 @@ You can also find a demo here: https://www.linkedin.com/feed/update/urn:li:activ
 
 ![Resto  HomePage](https://user-images.githubusercontent.com/79528112/189644550-1b751d2f-8242-40b6-9322-6cd8ce374cd9.JPG)
 
-## Features
+## Features:
 
 User are be able to:
 
